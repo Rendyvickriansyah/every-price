@@ -1,0 +1,68 @@
+body {
+	background-color: #f3f6fd !important;
+	font-family: "Poppins", sans-serif !important;
+}
+
+nav a span,
+.title h1 span,
+.price span,
+.starter .features i,
+.medium .features i {
+	color: #6e62e4;
+}
+
+.starter,
+.enterprise,
+.medium {
+	border-radius: 30px;
+}
+
+.button-starter {
+	padding: 16px;
+	color: #fff;
+	background-color: #6e62e4;
+	border-radius: 100px;
+	border: 0;
+	width: 100%;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+	transition: box-shadow 0.3s ease-in-out;
+}
+.button-starter:hover {
+	padding: 16px;
+	color: #fff;
+	background-color: #655cd6;
+	border-radius: 100px;
+	border: 0;
+	width: 100%;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.enterprise {
+	background-color: #3a3379 !important;
+	box-shadow: 3.2px 6.3px 11.3px rgba(0, 0, 0, 0.02),
+		10.7px 21.2px 38px rgba(0, 0, 0, 0.03), 48px 95px 170px rgba(0, 0, 0, 0.05);
+}
+
+.enterprise p {
+	color: #b2ade1;
+}
+
+.button-enterprise {
+	padding: 16px;
+	color: #000;
+	background-color: #ffbeb2;
+	border-radius: 100px;
+	border: 0;
+	width: 100%;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+	transition: box-shadow 0.3s ease-in-out;
+}
+.button-enterprise:hover {
+	padding: 16px;
+	color: #000;
+	background-color: #fab4a7;
+	border-radius: 100px;
+	border: 0;
+	width: 100%;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
